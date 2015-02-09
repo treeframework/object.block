@@ -19,13 +19,20 @@ dependencies in the relevant way.
 ## Installation
 
 The recommended installation method is Bower, but you can install the Block
-module via a Git Submodule, or copy and paste.
+module via npm, Git Submodule, or copy and paste.
 
 ### Install using Bower:
 
 ```sh
-$ bower install --save tree-block
+$ bower install tree-block --save
 ```
+
+### Install using npm:
+
+```sh
+$ npm install tree-block --save
+```
+
 
 Once installed, `@import` into your project in its Object layer:
 
