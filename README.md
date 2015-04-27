@@ -1,25 +1,24 @@
 # Block
 
-The Block object simply stacks an image on top of some text content.
+The `block` object simply stacks an image on top of some text content.
 
 This incredibly frequently occurring design pattern is now wrapped up in a
 simple, reusable, configurable abstraction.
 
 ## Dependencies
 
-The Block object depends on two other modules:
+The `block` object depends on two other modules:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
 * [tools.functions](https://github.com/treeframework/tools.functions)
 
-If you install the Block object using Bower, you will get these dependencies at
-the same time. If not using Bower, please be sure to install and `@import` these
-dependencies in the relevant way.
+If you install the Block object using Bower or npm, you will get these 
+dependencies at the same time. If not using Bower or npm, please be sure to 
+install and `@import` these dependencies in the relevant way.
 
 ## Installation
 
-The recommended installation method is Bower, but you can install the Block
-module via npm, Git Submodule, or copy and paste.
+You can install the `block` module via Bower, npm, or copy and paste.
 
 ### Install using Bower:
 
@@ -27,29 +26,16 @@ module via npm, Git Submodule, or copy and paste.
 $ bower install tree-block --save
 ```
 
-### Install using npm:
-
-```sh
-$ npm install tree-block --save
-```
-
-
 Once installed, `@import` into your project in its Object layer:
 
 ```scss
 @import "bower_componenets/tree-block/object.block";
 ```
 
-### Install as a Git Submodule:
+### Install using npm:
 
 ```sh
-$ git submodule add git@github.com:treeframework/object.block.git
-```
-
-Once installed, `@import` into your project in its Objects layer:
-
-```scss
-@import "object.block/object.block";
+$ npm install tree-block --save
 ```
 
 ### Install via file download
@@ -60,35 +46,35 @@ Objects layer.
 
 ## Usage
 
-Basic usage of the Block object uses the required classes:
+Basic usage of the `block` object uses the required classes:
 
 ```html
-<div class="block">
-    <img class="block__img" src="/path/to/image.png" alt="" />
-    <div class="block__body">
+<div class="o-block">
+    <img class="o-block__img" src="/path/to/image.png" alt="" />
+    <div class="o-block__body">
         <p>Text-like content goes here.</p>
     </div>
 </div>
 ```
 
-The only valid children of the `.block` node are `.block__img` and
-`.block__body`.
+The only valid children of the `.o-block` node are `.o-block__img` and
+`.o-block__body`.
 
 ## Options
 
 Other, optional classes can supplement the required base classes:
 
-* `.block--flush`: remove the space between the stacked image- and text-content.
-* `.block--[tiny|small|large|huge]`: alter the spacing between the stacked
+* `.o-block--flush`: remove the space between the stacked image- and text-content.
+* `.o-block--[tiny|small|large|huge]`: alter the spacing between the stacked
   image- and text-content.
-* `.block--[center|right]`: align both the image- and text-content.
+* `.o-block--[center|right]`: align both the image- and text-content.
 
 For example:
 
 ```html
-<div class="block  block--small  block--center">
-    <img class="block__img" src="/path/to/image.png" alt="" />
-    <div class="block__body">
+<div class="o-block  o-block--small  o-block--center">
+    <img class="o-block__img" src="/path/to/image.png" alt="" />
+    <div class="o-block__body">
         <p>Text-like content goes here.</p>
     </div>
 </div>
