@@ -82,8 +82,9 @@ $tree-enable-block--right:    false !default;
         @if ($tree-enable-block--flush == true) {
 
             // Modifier: `o-block--flush`
-            // No space between the image and the text content.
             // =================================================================
+
+            // No space between the image and the text content.
 
             .#{$tree-block-namespace}o-block--flush > & {
                 margin-bottom: 0;
@@ -94,8 +95,9 @@ $tree-enable-block--right:    false !default;
         @if ($tree-enable-block--tiny == true) {
 
             // Modifier: `o-block--tiny`
-            // Tiny space between the image and the text content.
             // =================================================================
+
+            // Tiny space between the image and the text content.
 
             .#{$tree-block-namespace}o-block--tiny > & {
                 margin-bottom: $tree-block-gutter--tiny;
@@ -106,8 +108,9 @@ $tree-enable-block--right:    false !default;
         @if ($tree-enable-block--small == true) {
 
             // Modifier: `o-block--small`
-            // Small space between the image and the text content.
             // =================================================================
+
+            // Small space between the image and the text content.
 
             .#{$tree-block-namespace}o-block--small > & {
                 margin-bottom: $tree-block-gutter--small;
@@ -118,8 +121,9 @@ $tree-enable-block--right:    false !default;
         @if ($tree-enable-block--large == true) {
 
             // Modifier: `o-block--large`
-            // Large space between the image and the text content.
             // =================================================================
+
+            // Large space between the image and the text content.
 
             .#{$tree-block-namespace}o-block--large > & {
                 margin-bottom: $tree-block-gutter--large;
@@ -130,8 +134,9 @@ $tree-enable-block--right:    false !default;
         @if ($tree-enable-block--huge == true) {
 
             // Modifier: `o-block--huge`
-            // Huge space between the image and the text content.
             // =================================================================
+
+            // Huge space between the image and the text content.
 
             .#{$tree-block-namespace}o-block--huge > & {
                 margin-bottom: $tree-block-gutter--huge;
@@ -158,8 +163,9 @@ $tree-enable-block--right:    false !default;
 @if ($tree-enable-block--right == true) {
 
     // Modifier: `o-block--right`
-    // Right-aligned blocks.
     // =========================================================================
+
+    // Right-aligned blocks.
 
     .#{$tree-block-namespace}o-block--right {
         text-align: right;
@@ -170,8 +176,9 @@ $tree-enable-block--right:    false !default;
 @if ($tree-enable-block--center == true) {
 
     // Modifier: `o-block--center`
-    // Center-aligned blocks.
     // =========================================================================
+
+    // Center-aligned blocks.
 
     .#{$tree-block-namespace}o-block--center {
         text-align: center;
