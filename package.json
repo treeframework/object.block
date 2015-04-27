@@ -1,7 +1,7 @@
 {
   "name": "tree-block",
   "description": "A simple stacked image-with-text.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Ilia Kolev <info@iliakolev.com>",
   "bugs": {
     "url": "https://github.com/treeframework/object.block/issues"
@@ -12,8 +12,8 @@
   },
   "homepage": "https://github.com/treeframework/object.block",
   "keywords": [
-    "oocss",
-    "css"
+    "css",
+    "oocss"
   ],
   "license": "MIT",
   "main": "_object.block.scss",
