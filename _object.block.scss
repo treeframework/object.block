@@ -71,8 +71,9 @@ $tree-enable-block--right:    false !default;
 
 
     // Element: `o-block__img`
-    // 1. Eliminate whitespace around images.
     // =========================================================================
+
+    // 1. Eliminate whitespace around images.
 
     .#{$tree-block-namespace}o-block__img {
         vertical-align: middle; // [1]
