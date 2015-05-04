@@ -29,7 +29,7 @@ $ bower install tree-block --save
 Once installed, `@import` into your project in its Object layer:
 
 ```scss
-@import "bower_componenets/tree-block/object.block";
+@import "bower_components/tree-block/object.block";
 ```
 
 ### Install using npm:
